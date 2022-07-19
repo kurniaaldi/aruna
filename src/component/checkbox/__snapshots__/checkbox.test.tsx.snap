@@ -8,10 +8,10 @@ exports[`input-snapshoot 1`] = `
   onChange={[Function]}
   style={
     Object {
-      "padding": 5,
-      "width": "100%",
+      "height": 20,
+      "width": 20,
     }
   }
-  type="number"
+  type="checkbox"
 />
 `;
