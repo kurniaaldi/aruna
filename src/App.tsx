@@ -1,5 +1,7 @@
+import Input from "./component/input";
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import Checkbox from "component/checkbox";
 
 interface IInputValue {
   id: string;
@@ -11,17 +13,17 @@ function App() {
   const [values, setValues] = useState<IInputValue[]>([
     {
       id: "input1",
-      input: null,
+      input: "",
       check: false,
     },
     {
       id: "input2",
-      input: null,
+      input: "",
       check: false,
     },
     {
       id: "input3",
-      input: null,
+      input: "",
       check: false,
     },
   ]);
@@ -162,20 +164,16 @@ function App() {
                   width: "100%",
                 }}
               >
-                <input
+                <Input
                   name={item.id}
                   value={item.input}
                   onChange={handleChangeInput}
-                  type="number"
-                  style={{ width: "100%", padding: 5 }}
                 />
-                <input
+                <Checkbox
                   disabled={!item.input}
                   name={item.id}
                   onChange={handleChangeCheck}
                   checked={item.check}
-                  style={{ width: 20, height: 20 }}
-                  type="checkbox"
                 />
               </div>
             );

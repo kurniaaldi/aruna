@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input-snapshoot 1`] = `
+<input
+  data-testid="input1"
+  name="input1"
+  onChange={[Function]}
+  style={
+    Object {
+      "padding": 5,
+      "width": "100%",
+    }
+  }
+  type="number"
+  value={10}
+/>
+`;

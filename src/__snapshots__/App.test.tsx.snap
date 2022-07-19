@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "100%",
+      "justifyContent": "center",
+      "margin": "0 auto",
+      "maxWidth": 1060,
+      "minHeight": "100vh",
+      "overflow": "hidden",
+      "position": "relative",
+      "textAlign": "start",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "border": "1px solid lightgray",
+        "borderRadius": 8,
+        "display": "flex",
+        "justifyContent": "center",
+        "minHeight": "30rem",
+        "minWidth": "30rem",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "alignSelf": "flex-start",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "1rem",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": "2rem",
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": "1rem",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <input
+          data-testid="input1"
+          name="input1"
+          onChange={[Function]}
+          style={
+            Object {
+              "padding": 5,
+              "width": "100%",
+            }
+          }
+          type="number"
+          value=""
+        />
+        <input
+          checked={false}
+          data-testid="input1"
+          disabled={true}
+          name="input1"
+          onChange={[Function]}
+          style={
+            Object {
+              "padding": 5,
+              "width": "100%",
+            }
+          }
+          type="number"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": "1rem",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <input
+          data-testid="input2"
+          name="input2"
+          onChange={[Function]}
+          style={
+            Object {
+              "padding": 5,
+              "width": "100%",
+            }
+          }
+          type="number"
+          value=""
+        />
+        <input
+          checked={false}
+          data-testid="input2"
+          disabled={true}
+          name="input2"
+          onChange={[Function]}
+          style={
+            Object {
+              "padding": 5,
+              "width": "100%",
+            }
+          }
+          type="number"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "gap": "1rem",
+            "justifyContent": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <input
+          data-testid="input3"
+          name="input3"
+          onChange={[Function]}
+          style={
+            Object {
+              "padding": 5,
+              "width": "100%",
+            }
+          }
+          type="number"
+          value=""
+        />
+        <input
+          checked={false}
+          data-testid="input3"
+          disabled={true}
+          name="input3"
+          onChange={[Function]}
+          style={
+            Object {
+              "padding": 5,
+              "width": "100%",
+            }
+          }
+          type="number"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "space-between",
+            "width": "80%",
+          }
+        }
+      >
+        <button
+          disabled={true}
+          onClick={[Function]}
+        >
+          +
+        </button>
+        <button
+          disabled={true}
+          onClick={[Function]}
+        >
+          -
+        </button>
+        <button
+          disabled={true}
+          onClick={[Function]}
+        >
+          x
+        </button>
+        <button
+          disabled={true}
+          onClick={[Function]}
+        >
+          /
+        </button>
+      </div>
+      <hr
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "alignSelf": "flex-start",
+            "display": "grid",
+            "gridTemplateColumns": "repeat(12,1fr)",
+            "justifyContent": "flex-start",
+            "width": "100%",
+          }
+        }
+      >
+        <h4
+          style={
+            Object {
+              "gridColumn": "span 6",
+            }
+          }
+        >
+          Hasil:
+        </h4>
+        <h4
+          style={
+            Object {
+              "gridColumn": "span 6",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
