@@ -16,8 +16,8 @@ const Checkbox = (props: IPropCheckbox) => {
       name={name}
       checked={checked}
       onChange={onChange}
-      type="number"
-      style={{ width: "100%", padding: 5 }}
+      style={{ width: 20, height: 20 }}
+      type="checkbox"
     />
   );
 };
